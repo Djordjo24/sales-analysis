@@ -1,0 +1,29 @@
+Table,Check,Result,Status
+Order Details,Composite key duplicates,0,OK
+Order Details,Invalid price or quantity,0,OK
+Order Details,Invalid discount,0,OK
+Order Details,Invalid data type unit price,0,OK
+Order Details,Invalid data type quantity,0,OK
+Order Details,Invalid data type discount,0,OK
+Orders,Duplicate Ids,0,OK
+Orders,Missing shipped dates,21,WARNING
+Orders,Invalid dates,0,OK
+Orders,Negative freight,0,OK
+Orders,Invalid data type freight,0,OK
+Orders,Invalid data type order date,0,OK
+Orders,Invalid data type required date,0,OK
+Orders,Invalid data type shipped date,0,OK
+Products,Duplicate Ids,0,OK
+Products,Duplicate product name,0,OK
+Products,Invalid price,0,OK
+Products,"Invalid units in stock, units in order or reorder level",0,OK
+Products,Invalid data type unit price,0,OK
+Products,Empty product name or quantity per unit,0,OK
+Products,Invalid discontinued,0,OK
+Categories,Duplicate Ids,0,OK
+Categories,Duplicate category name,0,OK
+Categories,Empty category name,0,OK
+Customers,Duplicate Ids,0,OK
+Customers,Duplicate company name,1,WARNING
+Customers,"Empty company name, contact name, address, city or country",0,OK
+Customers,"NULL address, city, region or country",2,WARNING
